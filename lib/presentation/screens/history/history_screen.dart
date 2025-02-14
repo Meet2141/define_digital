@@ -3,9 +3,9 @@ import 'package:define_digitals/utils/constants.dart';
 import 'package:flutter/material.dart';
 import 'package:flutter_bloc/flutter_bloc.dart';
 
-import '../bloc/history/history_bloc.dart';
-import '../bloc/history/history_state.dart';
-import '../widgets/transaction_list.dart';
+import '../../bloc/history/history_bloc.dart';
+import '../../bloc/history/history_state.dart';
+import '../../widgets/transaction_list.dart';
 
 class HistoryScreen extends StatelessWidget {
   const HistoryScreen({super.key});

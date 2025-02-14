@@ -10,7 +10,7 @@ import 'data/models/transaction_model.dart';
 import 'data/repositories/savings_repository.dart';
 import 'presentation/bloc/history/history_bloc.dart';
 import 'presentation/bloc/savings/savings_bloc.dart';
-import 'presentation/screens/home_screen.dart';
+import 'presentation/screens/home/home_screen.dart';
 
 void main() async {
   WidgetsFlutterBinding.ensureInitialized();

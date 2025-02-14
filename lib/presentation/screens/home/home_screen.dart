@@ -2,12 +2,12 @@ import 'package:define_digitals/utils/constants.dart';
 import 'package:flutter/material.dart';
 import 'package:flutter_bloc/flutter_bloc.dart';
 
-import '../bloc/savings/savings_bloc.dart';
-import '../bloc/savings/savings_state.dart';
-import '../widgets/savings_card.dart';
-import 'history_screen.dart';
-import 'saving_screen.dart';
-import 'withdrawal_screen.dart';
+import '../../bloc/savings/savings_bloc.dart';
+import '../../bloc/savings/savings_state.dart';
+import '../../widgets/savings_card.dart';
+import '../history/history_screen.dart';
+import '../saving/saving_screen.dart';
+import '../withdraw/withdrawal_screen.dart';
 
 class HomeScreen extends StatelessWidget {
   const HomeScreen({super.key});
